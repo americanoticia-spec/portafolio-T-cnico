@@ -1,0 +1,37 @@
+{
+  "hero_title": "Desarrollo Web Profesional y <br><span class=\"text-gradient\">Diseño de Landing Pages que Convierten</span>",
+  "hero_subtitle": "Más de 9 años creando páginas web modernas, rápidas y optimizadas para ventas. Transformo tu visión en una máquina de generar clientes.",
+  "exp_years": "9+",
+  "about_p1": "Hola, soy <strong>Gerardo Colmenares</strong>. Llevo más de 9 años en el mundo digital perfeccionando el arte de crear sitios web que no solo se ven increíbles, sino que <strong>cumplen objetivos comerciales</strong>.",
+  "about_p2": "Mi enfoque es 100% orientado a resultados: diseño páginas web estáticas y dinámicas, landing pages persuasivas y logotipos profesionales con una premisa clara: <em>convertir visitantes en clientes</em>.",
+  "about_p3": "Aprovecho la Inteligencia Artificial y herramientas modernas para optimizar la eficiencia, la velocidad de carga y asegurar que cada proyecto esté preparado para posicionar en Google (SEO).",
+  "projects": [
+    {
+      "title": "SaaS Tech Dashboard",
+      "image": "file:///C:/Users/Usuario/.gemini/antigravity/brain/941cb700-e6f4-4aba-905d-cca48eb35d70/project_1_1777515676501.png",
+      "tag1": "Landing Page",
+      "tag2": "Ventas",
+      "desc": "<strong>Problema:</strong> Baja conversión en campañas.<br><strong>Solución:</strong> Rediseño completo enfocado en UX y persuasión visual.<br><strong>Resultado:</strong> +45% en captación de leads.",
+      "tech": "HTML, CSS, IA Tools",
+      "url": "#"
+    },
+    {
+      "title": "Agencia Innovadora",
+      "image": "file:///C:/Users/Usuario/.gemini/antigravity/brain/941cb700-e6f4-4aba-905d-cca48eb35d70/project_2_1777515693365.png",
+      "tag1": "Web Corporativa",
+      "tag2": "Animaciones",
+      "desc": "<strong>Problema:</strong> Sitio web obsoleto y lento.<br><strong>Solución:</strong> Desarrollo moderno con animaciones dinámicas.<br><strong>Resultado:</strong> Confianza inmediata y mayor tiempo en sitio.",
+      "tech": "Vite, CSS Vainilla, JS",
+      "url": "#"
+    },
+    {
+      "title": "Nexus Startup Logo",
+      "image": "file:///C:/Users/Usuario/.gemini/antigravity/brain/941cb700-e6f4-4aba-905d-cca48eb35d70/project_3_1777515708888.png",
+      "tag1": "Logo / Branding",
+      "tag2": "Identidad",
+      "desc": "<strong>Problema:</strong> Marca genérica sin identidad.<br><strong>Solución:</strong> Creación de logo minimalista y paleta de colores.<br><strong>Resultado:</strong> Identidad visual premium y memorable.",
+      "tech": "Diseño Vectorial, Branding",
+      "url": "#"
+    }
+  ]
+}
