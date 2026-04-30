@@ -15,9 +15,6 @@
     
     <!-- Icons (Lucide) -->
     <script src="https://unpkg.com/lucide@latest"></script>
-
-    <!-- Netlify Identity Widget para CMS -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -289,19 +286,6 @@
     <!-- Initializing Icons -->
     <script>
       lucide.createIcons();
-    </script>
-    
-    <!-- Netlify Identity Redirect -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
     </script>
     
     <script src="script.js"></script>
