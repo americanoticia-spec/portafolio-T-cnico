@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: americanoticia/portafolio-T-cnico
+  branch: main
+
+media_folder: "assets" 
+public_folder: "assets"
+
+collections:
+  - name: "pages"
+    label: "Contenido de la Web"
+    files:
+      - label: "Textos y Proyectos"
+        name: "home"
+        file: "data.json"
+        description: "Aquí puedes editar los textos de tu portafolio y tus proyectos."
+        fields:
+          - {label: "Título Principal (Hero)", name: "hero_title", widget: "string"}
+          - {label: "Subtítulo", name: "hero_subtitle", widget: "text"}
+          - {label: "Años de Experiencia", name: "exp_years", widget: "string"}
+          - {label: "Sobre Mí - Párrafo 1", name: "about_p1", widget: "text"}
+          - {label: "Sobre Mí - Párrafo 2", name: "about_p2", widget: "text"}
+          - {label: "Sobre Mí - Párrafo 3", name: "about_p3", widget: "text"}
+          - label: "Proyectos de Portafolio"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Nombre del Proyecto", name: "title", widget: "string"}
+              - {label: "Imagen del Proyecto", name: "image", widget: "image"}
+              - {label: "Tipo / Categoría 1", name: "tag1", widget: "string"}
+              - {label: "Tipo / Categoría 2", name: "tag2", widget: "string"}
+              - {label: "Problema/Solución/Resultado", name: "desc", widget: "text"}
+              - {label: "Tecnologías", name: "tech", widget: "string"}
+              - {label: "URL del proyecto", name: "url", widget: "string", default: "#"}
